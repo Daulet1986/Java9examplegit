@@ -27,6 +27,9 @@ public class Student extends Person {
             return 36660.0;
         else return 0.0;
     }
+    public void eat(){
+        System.out.println("eat");
+    }
 
     @Override
     public String toString() {
